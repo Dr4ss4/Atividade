@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Roboto";
+    list-style: none;
+    box-sizing: border-box;
+    background: #000;
+}
+
+section {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg img {
+    width: 110vw;
+    height: 110vh;
+    filter: brightness(0.6);
+}
+
+.rock1 {
+    position: absolute !important;
+    left: 10vw !important;
+    top: 20vh !important;
+}
+
+.rock1 img {
+    width: 40%;
+    filter: brightness(0.5);
+}
+
+.text h1 {
+    font-family: "AlphaCentauri" !important;
+    font-size: 5vw;
+    color: #fff;
+    letter-spacing: 20px;
+    position: absolute;
+    top: 35vh;
+    left: 34vw;
+}
+
+.questions {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 8%;
+    pointer-events: all;
+}
+
+.question {
+    margin-right: 60%;
+}
+
+.question img:hover{
+    transform: scale(1.1);
+}
+
+.two {
+    margin-top: 40%;
+    margin-right: 12%;
+}
+
+.two:hover{
+    transform: scale(1.1);
+}
+
+.four {
+    margin-top: 30%;
+    margin-right: 20%;
+}
+
+.four:hover{
+    transform: scale(1.1);
+}
+
+.earth img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 34vw;
+    top: 25vh;
+    z-index: 1;
+    filter: brightness(0.7);
+}
+
+.mid {
+    left: -150px !important;
+    bottom: -100px !important;
+    top: unset !important;
+}
+
+.mid img {
+    width: 100%;
+    z-index: 2;
+    left: -20px;
+    top: 20vh !important;
+    filter: brightness(0.8);
+}
+
+.fore {
+    right: -50px !important;
+    bottom: -200px !important;
+    top: 0px !important;
+    left: unset !important;
+}
+
+.fore img {
+    width: 400px;
+    height: 110vh;
+    z-index: 3;
+    filter: brightness(0.5);
+}
+
+/*gerais*/
+
+.bottom img {
+    width: 100vw;
+    height: 99.1vh;
+    filter: brightness(0.6);
+}
+
+.button{
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+.button:hover{
+    background-color: rgb(97, 113, 158);
+}
+
+/*about.html - primeira questão*/
+
+.bottom img {
+    width: 100vw;
+    height: 99.1vh;
+    filter: brightness(0.6);
+}
+
+.introduction1 {
+    font-family: "AlphaCentauri" !important;
+    font-size: 2vw;
+    color: #fff;
+    position: absolute;
+    top: 15vh;
+    left: 34vw;
+}
+
+/*about2.html - segunda questão*/
+
+.introduction4{
+    font-family: "AlphaCentauri" !important;
+    font-size: 5vw;
+    color: #fff;
+    position: absolute;
+    top: 15vh;
+    left: 34vw;
+}
+
+/*about3.html - terceira questão*/
+
+.introduction3{
+    font-family: "AlphaCentauri" !important;
+    font-size: 3vw;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*about4.html - quarta questão*/
+
+.introduction4{
+    font-family: "AlphaCentauri" !important;
+    font-size: 2vw;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*about5.html - quinta questão*/
+
+.introduction5{
+    font-family: "AlphaCentauri" !important;
+    font-size: 2vw;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
